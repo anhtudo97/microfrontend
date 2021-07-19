@@ -1,0 +1,12 @@
+{
+  "name": "prod",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "anhtudo97 <anhtudo97@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "husky": "^7.0.1"
+  }
+}
