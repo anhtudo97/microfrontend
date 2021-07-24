@@ -10,7 +10,7 @@ module.exports = {
     plugins: [
         new ModuleFederationPlugin({
             name: "products",
-            filename: "remoteEntry.js",
+            filename: "remote-product-entry.js",
             exposes: {
                 "./ProductsIndex": "./src/index",
             },
