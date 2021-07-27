@@ -1,8 +1,6 @@
 import faker from "faker";
 
-console.log(products);
-
-export const mount = (el) => {
+const mount = (el) => {
     let products = "";
 
     for (let i = 0; i < 3; i++) {
@@ -23,3 +21,5 @@ if (process.env.NODE_ENV === "development") {
         mount(el);
     }
 }
+
+export { mount };
