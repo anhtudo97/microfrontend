@@ -12,7 +12,7 @@ module.exports = {
             name: "products",
             filename: "remote-product-entry.js",
             exposes: {
-                "./ProductsIndex": "./src/index",
+                "./ProductsIndex": "./src/bootstrap",
             },
             shared: {
                 faker: {
